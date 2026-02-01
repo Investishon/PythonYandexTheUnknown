@@ -37,11 +37,11 @@ class DorsView(arcade.View):
 
     def load_door_images(self):
         try:
-            image_path = "../texture/dors/1.png"
+            image_path = "../texture/dors/1_1.png"
 
             if not os.path.exists(image_path):
                 for ext in ['.jpg', '.jpeg', '.png']:
-                    alt_path = f"../texture/dors/1{ext}"
+                    alt_path = f"../texture/dors/1_1{ext}"
                     if os.path.exists(alt_path):
                         image_path = alt_path
                         break
@@ -204,10 +204,10 @@ class DorsView(arcade.View):
 
         # Меняем текстуру у текущей двери
         if self.current_door:
-            new_path = "../texture/dors/2.png"
+            new_path = "../texture/dors/2_2.png"
             if not os.path.exists(new_path):
                 for ext in ['.jpg', '.jpeg', '.png']:
-                    alt_path = f"../texture/dors/2{ext}"
+                    alt_path = f"../texture/dors/2_2{ext}"
                     if os.path.exists(alt_path):
                         new_path = alt_path
                         break

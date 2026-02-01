@@ -3,7 +3,7 @@ import arcade
 
 class Person2(arcade.Sprite):
     def __init__(self):
-        super().__init__("../person/person2.jpg", 1.0)
+        super().__init__("../person/person2_1.png", 0.3)
         self.movement_speed = 10
         self.health = 150
         self.is_controlled = False

@@ -3,7 +3,7 @@ import arcade
 
 class Mob4(arcade.Sprite):
     def __init__(self):
-        super().__init__("../mobs/mob4.jpg", 0.5)
+        super().__init__("../mobs/mob4_1.png", 0.4)
         # СВОИ параметры для Mob4
         self.rotation_speed = 1    # Скорость вращения по кругу
         self.health = 150          # Здоровье

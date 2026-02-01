@@ -3,7 +3,7 @@ import arcade
 
 class Mob2(arcade.Sprite):
     def __init__(self):
-        super().__init__("../mobs/mob2.jpg", 0.5)
+        super().__init__("../mobs/mob2_11.png", 0.4)
         self.rotation_speed = 2
         self.health = 150
         self.initial_health = 150
